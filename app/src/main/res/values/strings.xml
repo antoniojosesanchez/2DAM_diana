@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">¡Diana!</string>
+
+    <!-- cadenas personalizadas -->
+    <string name="btn_jugar">Empezar Juego</string>
+    <string name="btn_info" translatable="false">Info</string>
+    <string name="btn_dispara">Disparar</string>
+
+    <string name="etq_puntos">Puntos:</string>
+    <string name="etq_tiradas">Tiradas:</string>
+    <string name="etq_desarrollador">Juego desarrollado por Antonio J.Sánchez</string>
+    <string name="etq_mensaje">Este juego ha sido desarrollado por Javier Jiménez Jaén para la asignatura de Programación Multimedia y de Dispositivos Móviles</string>
+
+</resources>
