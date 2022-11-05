@@ -4,7 +4,7 @@
 App for educational purpose
 Multimedia and mobile devices programming
 Services and proccess programming
-IES Campanillas (Málaga)
+CPIFP Nuevo (desglose IES Campanillas - Málaga)
 2021/22
 
 Teacher:
