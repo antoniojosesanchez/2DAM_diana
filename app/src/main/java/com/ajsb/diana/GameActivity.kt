@@ -73,6 +73,8 @@ class GameActivity : AppCompatActivity()
 
                         // incrementamos los puntos
                         puntuacion += 1000
+
+
                     }
                     .setNegativeButton(R.string.btn_no) { i, w ->
                         finish()

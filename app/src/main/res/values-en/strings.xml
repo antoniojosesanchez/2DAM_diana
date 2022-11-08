@@ -12,7 +12,7 @@
 
     <string name="etq_mensaje">Shoot close to %d</string>
     <string name="etq_puntos">Score: %d</string>
-    <string name="etq_exito">You Win!\\nDo you wanna play again?</string>
+    <string name="etq_exito">You Win!\nDo you wanna play again?</string>
     <string name="etq_fallo">Fail! You shot %d</string>
 
     <!-- plurales -->
