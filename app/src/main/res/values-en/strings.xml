@@ -5,9 +5,22 @@
     <string name="app_name">Bullseye!</string>
     <string name="btn_jugar">Play Game</string>
     <string name="btn_dispara">Shoot</string>
-    <string name="etq_puntos">Score:</string>
-    <string name="etq_tiradas">Darts:</string>
+    <string name="btn_si">Yes</string>
 
     <string name="etq_desarrollador">Game developed by Javier Jiménez Jaén</string>
-    <string name="etq_mensaje">This game has been developed by Javier Jiménez Jaén for the subject of Multimedia Programming and Mobile Devices</string>
+    <string name="etq_info">This game has been developed by Javier Jiménez Jaén for the subject of Multimedia Programming and Mobile Devices</string>
+
+    <string name="etq_mensaje">Shoot close to %d</string>
+    <string name="etq_puntos">Score: %d</string>
+    <string name="etq_exito">You Win!\\nDo you wanna play again?</string>
+    <string name="etq_fallo">Fail! You shot %d</string>
+
+    <!-- plurales -->
+    <plurals name="etq_tiradas">
+        <item quantity="one">%d dart left</item>
+        <item quantity="other">You have got %d darts</item>
+    </plurals>
+
+
+
 </resources>

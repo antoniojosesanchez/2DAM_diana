@@ -1,12 +1,17 @@
-package com.pmdm.juego
+/**
+ * Antonio J. Sánchez
+ * Programación Multimedia y de Dispositivos Móviles
+ * Programación de Servicios y Procesos
+ * curso 2022|23
+ */
+package com.ajsb.diana
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.ajsb.diana.databinding.ActivityGameBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
-import com.pmdm.juego.databinding.ActivityGameBinding
 import kotlin.random.Random
 
 class GameActivity : AppCompatActivity()
@@ -56,33 +61,31 @@ class GameActivity : AppCompatActivity()
             if (valor == numero)  {
 
                 val madb = MaterialAlertDialogBuilder(this@GameActivity)
-                            .setTitle(R.string.app_name)
-                            .setMessage(R.string.etq_exito)
-                            .setPositiveButton(R.string.btn_si) { i, w ->
+                    .setTitle(R.string.app_name)
+                    .setMessage(R.string.etq_exito)
+                    .setPositiveButton(R.string.btn_si) { i, w ->
 
-                                // reiniciamos el número
-                                numero = Random.nextInt(0, 100)
+                        // reiniciamos el número
+                        numero = Random.nextInt(0, 100)
 
-                                // reseteamos las tiradas
-                                tiradas = 5
+                        // reseteamos las tiradas
+                        tiradas = 5
 
-                                // incrementamos los puntos
-                                puntuacion += 1000
-                            }
-                            .setNegativeButton(R.string.btn_no) { i, w ->
-                               finish()
-                                return@setNegativeButton
-                            }
-                            .create()
+                        // incrementamos los puntos
+                        puntuacion += 1000
+                    }
+                    .setNegativeButton(R.string.btn_no) { i, w ->
+                        finish()
+                        return@setNegativeButton
+                    }
+                    .create()
 
                 madb.show()
-
-
 
             } else {
 
                 Snackbar.make(it,resources.getString(R.string.etq_fallo, valor), Snackbar.LENGTH_LONG)
-                        .show()
+                    .show()
 
                 if (tiradas == 0) Log.i("XXXX", "El juego ha terminado")
             }

@@ -5,10 +5,22 @@
     <string name="btn_jugar">Empezar Juego</string>
     <string name="btn_info" translatable="false">Info</string>
     <string name="btn_dispara">Disparar</string>
+    <string name="btn_si">Si</string>
+    <string name="btn_no" translatable="false" traslatable="false">No</string>
 
-    <string name="etq_puntos">Puntos:</string>
-    <string name="etq_tiradas">Tiradas:</string>
+    <string name="etq_exito">¡Has acertado!\n¿Quieres jugar otra vez?</string>
     <string name="etq_desarrollador">Juego desarrollado por Antonio J.Sánchez</string>
-    <string name="etq_mensaje">Este juego ha sido desarrollado por Javier Jiménez Jaén para la asignatura de Programación Multimedia y de Dispositivos Móviles</string>
+    <string name="etq_info">Este juego ha sido desarrollado por Javier Jiménez Jaén para la asignatura de Programación Multimedia y de Dispositivos Móviles</string>
+
+    <string name="etq_mensaje">Intenta disparar lo más cerca del valor %d</string>
+    <string name="etq_puntos">Puntuación: %d</string>
+    <string name="etq_fallo">¡Fallaste! El dardo ha caído en %d</string>
+
+    <!-- plurales -->
+    <plurals name="etq_tiradas">
+        <item quantity="one">Te queda %d tirada</item>
+        <item quantity="other">Te quedan %d tiradas</item>
+    </plurals>
+
 
 </resources>
